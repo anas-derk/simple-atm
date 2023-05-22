@@ -1,0 +1,48 @@
+body{
+    background-color: aqua;
+}
+
+*{
+    font-family: 'Cairo', sans-serif;
+}
+
+.project-title{
+    text-align: center;
+    background-color: rgb(224, 79, 79);
+    width: fit-content;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.handle-atm-form{
+    text-align: center;
+}
+
+.handle-atm-form .card-number, .handle-atm-form .secret-number, .handle-atm-form .balance{
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.handle-atm-form .send-request-btn{
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.result{
+    background-color: #0F0;
+    color: #000;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0 auto;
+}

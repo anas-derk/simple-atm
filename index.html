@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>مشروع الصرّاف الآلي</title>
+        <link rel="stylesheet" href="./index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="project-title">مرحباً بك في الصراف الآلي .</h1>
+        <form class="handle-atm-form" onsubmit="handleRequest(event)">
+            <input type="number" placeholder="الرجاء إدخال رقم البطاقة" class="card-number" required>
+            <input type="password" placeholder="الرجاء إدخال الرقم السري" class="secret-number" required minlength="8">
+            <input type="number" placeholder="الرجاء إدخال الرصيد المراد سحبه" class="balance" required min="1">
+            <button class="send-request-btn" type="submit">إرسال الطلب</button>
+        </form>
+        <script src="./index.js"></script>
+    </body>
+</html>
